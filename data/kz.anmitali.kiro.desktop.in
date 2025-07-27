@@ -1,0 +1,27 @@
+[Desktop Entry]
+Type=Application
+Name=Kiro
+GenericName=Terminal Emulator
+Comment=A modern and elegant terminal emulator
+Exec=kiro
+Icon=utilities-terminal
+Terminal=false
+NoDisplay=false
+Categories=System;TerminalEmulator;GTK;
+StartupNotify=true
+StartupWMClass=kiro
+Keywords=terminal;shell;prompt;command;commandline;cmd;
+Keywords=shell;prompt;command;commandline;cmd;terminal;console;bash;zsh;fish;
+Actions=new-window;new-tab;preferences;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=kz.anmitali.kiro --new-window
+
+[Desktop Action new-tab]
+Name=New Tab
+Exec=kz.anmitali.kiro --new-tab
+
+[Desktop Action preferences]
+Name=Preferences
+Exec=kz.anmitali.kiro --preferences

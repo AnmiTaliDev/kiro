@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>kz.anmitali.kiro</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Kiro</name>
+  <summary>A modern and elegant terminal emulator</summary>
+  
+  <description>
+    <p>
+      Kiro is a modern terminal emulator built with GTK4 and LibAdwaita, 
+      designed to integrate seamlessly with the GNOME desktop environment.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Modern GTK4 and LibAdwaita interface</li>
+      <li>Tabbed interface for multiple terminal sessions</li>
+      <li>Extensive customization options</li>
+      <li>Full color support with custom palettes</li>
+      <li>Transparency and theme integration</li>
+      <li>Hyperlink detection and opening</li>
+      <li>Copy on select functionality</li>
+      <li>Configurable keyboard shortcuts</li>
+      <li>Multiple cursor shapes and blinking options</li>
+      <li>Scrollback buffer management</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">kz.anmitali.kiro.desktop</launchable>
+  
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main terminal interface</caption>
+    </screenshot>
+  </screenshots>
+  
+  <url type="homepage">https://github.com/AnmiTaliDev/kiro</url>
+  <url type="bugtracker">https://github.com/AnmiTaliDev/kiro/issues</url>
+  
+  <developer_name>AnmiTaliDev</developer_name>
+  <update_contact>anmitali198@gmail.com</update_contact>
+  
+  <releases>
+    <release version="1.0.0" date="2024-01-01">
+      <description>
+        <p>Initial release of Kiro terminal emulator</p>
+        <ul>
+          <li>Modern GTK4 and LibAdwaita interface</li>
+          <li>Tabbed terminal sessions</li>
+          <li>Comprehensive settings and customization</li>
+          <li>Full VTE integration</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  
+  <content_rating type="oars-1.1" />
+  
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
+  
+  <categories>
+    <category>System</category>
+    <category>TerminalEmulator</category>
+  </categories>
+  
+  <kudos>
+    <kudo>ModernToolkit</kudo>
+    <kudo>HiDpiIcon</kudo>
+  </kudos>
+</component>

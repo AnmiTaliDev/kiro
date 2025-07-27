@@ -1,0 +1,595 @@
+# Kiro Terminal Emulator - Russian Translation
+# Copyright (C) 2025 AnmiTaliDev
+# This file is distributed under the same license as the Kiro package.
+# AnmiTaliDev <anmitali198@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiro 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-27 19:14+0500\n"
+"PO-Revision-Date: 2025-07-27 19:30+0500\n"
+"Last-Translator: AnmiTaliDev <anmitali198@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.vala:94
+msgid "translator-credits"
+msgstr "AnmiTaliDev <anmitali198@gmail.com>"
+
+#: src/engine.vala:386
+msgid "Copy"
+msgstr "Копировать"
+
+#. Check if clipboard has text (simplified)
+#: src/engine.vala:391
+msgid "Paste"
+msgstr "Вставить"
+
+#: src/engine.vala:392
+msgid "Select All"
+msgstr "Выделить всё"
+
+#: src/ui.vala:47
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: src/ui.vala:52 src/ui.vala:67 data/kz.anmitali.kiro.desktop.in:22
+msgid "New Tab"
+msgstr "Новая вкладка"
+
+#: src/ui.vala:53 src/ui.vala:367 data/kz.anmitali.kiro.desktop.in:26
+msgid "Preferences"
+msgstr "Настройки"
+
+#: src/ui.vala:57
+msgid "About Kiro"
+msgstr "О программе Kiro"
+
+#: src/ui.vala:58
+msgid "Quit"
+msgstr "Выход"
+
+#. Connect terminal signals
+#: src/ui.vala:191 src/ui.vala:196
+msgid "Terminal"
+msgstr "Терминал"
+
+#. General page
+#: src/ui.vala:379
+msgid "General"
+msgstr "Общие"
+
+#. Appearance page
+#: src/ui.vala:388
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#. Behavior page
+#: src/ui.vala:397
+msgid "Behavior"
+msgstr "Поведение"
+
+#. Advanced page
+#: src/ui.vala:406
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#. Shell group
+#: src/ui.vala:417
+msgid "Shell"
+msgstr "Оболочка"
+
+#: src/ui.vala:421
+msgid "Custom Shell Command"
+msgstr "Пользовательская команда оболочки"
+
+#: src/ui.vala:430
+msgid "Run Custom Command Instead of Shell"
+msgstr "Запускать пользовательскую команду вместо оболочки"
+
+#: src/ui.vala:439
+msgid "Custom Command"
+msgstr "Пользовательская команда"
+
+#. Window group
+#: src/ui.vala:453
+msgid "Window"
+msgstr "Окно"
+
+#: src/ui.vala:457
+msgid "Remember Window Size"
+msgstr "Запоминать размер окна"
+
+#: src/ui.vala:466
+msgid "Always on Top"
+msgstr "Поверх всех окон"
+
+#: src/ui.vala:475
+msgid "Close Tab When Process Exits"
+msgstr "Закрывать вкладку при завершении процесса"
+
+#. Font group
+#: src/ui.vala:489
+msgid "Font"
+msgstr "Шрифт"
+
+#: src/ui.vala:502
+msgid "Terminal Font"
+msgstr "Шрифт терминала"
+
+#: src/ui.vala:508
+msgid "Allow Bold Text"
+msgstr "Разрешить жирный текст"
+
+#. Colors group
+#: src/ui.vala:520
+msgid "Colors"
+msgstr "Цвета"
+
+#: src/ui.vala:524
+msgid "Use System Theme Colors"
+msgstr "Использовать цвета системной темы"
+
+#: src/ui.vala:541
+msgid "Foreground Color"
+msgstr "Цвет текста"
+
+#: src/ui.vala:557
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: src/ui.vala:576
+msgid "Background Transparency"
+msgstr "Прозрачность фона"
+
+#: src/ui.vala:577
+msgid "0.0 = Opaque, 1.0 = Transparent"
+msgstr "0.0 = Непрозрачный, 1.0 = Прозрачный"
+
+#. Cursor group
+#: src/ui.vala:586
+msgid "Cursor"
+msgstr "Курсор"
+
+#: src/ui.vala:590
+msgid "Cursor Shape"
+msgstr "Форма курсора"
+
+#: src/ui.vala:600
+msgid "Cursor Blinking"
+msgstr "Мигание курсора"
+
+#. Scrolling group
+#: src/ui.vala:614
+msgid "Scrolling"
+msgstr "Прокрутка"
+
+#: src/ui.vala:625
+msgid "Scrollback Lines"
+msgstr "Строки истории"
+
+#: src/ui.vala:631
+msgid "Scroll on Output"
+msgstr "Прокручивать при выводе"
+
+#: src/ui.vala:640
+msgid "Scroll on Keystroke"
+msgstr "Прокручивать при нажатии клавиш"
+
+#. Mouse group
+#: src/ui.vala:652
+msgid "Mouse"
+msgstr "Мышь"
+
+#: src/ui.vala:656
+msgid "Hide Mouse When Typing"
+msgstr "Скрывать мышь при наборе"
+
+#: src/ui.vala:665
+msgid "Copy on Select"
+msgstr "Копировать при выделении"
+
+#. Bell group
+#: src/ui.vala:677
+msgid "Bell"
+msgstr "Звуковой сигнал"
+
+#: src/ui.vala:681
+msgid "Audible Bell"
+msgstr "Звуковой сигнал"
+
+#: src/ui.vala:690
+msgid "Urgent Bell (Flash Window)"
+msgstr "Срочный сигнал (мигание окна)"
+
+#. Text group
+#: src/ui.vala:704
+msgid "Text Selection"
+msgstr "Выделение текста"
+
+#: src/ui.vala:708
+msgid "Word Characters"
+msgstr "Символы слова"
+
+#: src/ui.vala:717
+msgid "Allow Hyperlinks"
+msgstr "Разрешить гиперссылки"
+
+#. Performance group
+#: src/ui.vala:729
+msgid "Performance"
+msgstr "Производительность"
+
+#. Reset button
+#: src/ui.vala:734
+msgid "Reset All Settings"
+msgstr "Сбросить все настройки"
+
+#: src/ui.vala:742
+msgid "Reset Settings"
+msgstr "Сброс настроек"
+
+#: src/ui.vala:743
+msgid "Reset all preferences to default values"
+msgstr "Сбросить все настройки к значениям по умолчанию"
+
+#: src/ui.vala:753
+msgid "Block"
+msgstr "Блок"
+
+#: src/ui.vala:754
+msgid "I-Beam"
+msgstr "Вертикальная линия"
+
+#: src/ui.vala:755
+msgid "Underline"
+msgstr "Подчёркивание"
+
+#: src/ui.vala:761
+msgid "Reset All Settings?"
+msgstr "Сбросить все настройки?"
+
+#: src/ui.vala:762
+msgid ""
+"This will reset all preferences to their default values. This action cannot "
+"be undone."
+msgstr ""
+"Это сбросит все настройки к значениям по умолчанию. Это действие нельзя "
+"отменить."
+
+#: src/ui.vala:765
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/ui.vala:766
+msgid "Reset"
+msgstr "Сброс"
+
+#: data/kz.anmitali.kiro.desktop.in:3 data/kz.anmitali.kiro.appdata.xml:6
+msgid "Kiro"
+msgstr "Kiro"
+
+#: data/kz.anmitali.kiro.desktop.in:4
+msgid "Terminal Emulator"
+msgstr "Эмулятор терминала"
+
+#: data/kz.anmitali.kiro.desktop.in:5 data/kz.anmitali.kiro.appdata.xml:7
+msgid "A modern and elegant terminal emulator"
+msgstr "Современный и элегантный эмулятор терминала"
+
+#: data/kz.anmitali.kiro.desktop.in:13
+msgid "terminal;shell;prompt;command;commandline;cmd;"
+msgstr "терминал;оболочка;командная строка;команда;консоль;"
+
+#: data/kz.anmitali.kiro.desktop.in:14
+msgid "shell;prompt;command;commandline;cmd;terminal;console;bash;zsh;fish;"
+msgstr "оболочка;командная строка;команда;терминал;консоль;bash;zsh;fish;"
+
+#: data/kz.anmitali.kiro.desktop.in:18
+msgid "New Window"
+msgstr "Новое окно"
+
+#: data/kz.anmitali.kiro.appdata.xml:10
+msgid ""
+"Kiro is a modern terminal emulator built with GTK4 and LibAdwaita, designed "
+"to integrate seamlessly with the GNOME desktop environment."
+msgstr ""
+"Kiro — это современный эмулятор терминала, созданный с использованием GTK4 и "
+"LibAdwaita, разработанный для бесшовной интеграции с рабочей средой GNOME."
+
+#: data/kz.anmitali.kiro.appdata.xml:14
+msgid "Features:"
+msgstr "Возможности:"
+
+#: data/kz.anmitali.kiro.appdata.xml:16 data/kz.anmitali.kiro.appdata.xml:48
+msgid "Modern GTK4 and LibAdwaita interface"
+msgstr "Современный интерфейс GTK4 и LibAdwaita"
+
+#: data/kz.anmitali.kiro.appdata.xml:17
+msgid "Tabbed interface for multiple terminal sessions"
+msgstr "Интерфейс с вкладками для нескольких сеансов терминала"
+
+#: data/kz.anmitali.kiro.appdata.xml:18
+msgid "Extensive customization options"
+msgstr "Широкие возможности настройки"
+
+#: data/kz.anmitali.kiro.appdata.xml:19
+msgid "Full color support with custom palettes"
+msgstr "Полная поддержка цветов с пользовательскими палитрами"
+
+#: data/kz.anmitali.kiro.appdata.xml:20
+msgid "Transparency and theme integration"
+msgstr "Прозрачность и интеграция с темами"
+
+#: data/kz.anmitali.kiro.appdata.xml:21
+msgid "Hyperlink detection and opening"
+msgstr "Обнаружение и открытие гиперссылок"
+
+#: data/kz.anmitali.kiro.appdata.xml:22
+msgid "Copy on select functionality"
+msgstr "Функция копирования при выделении"
+
+#: data/kz.anmitali.kiro.appdata.xml:23
+msgid "Configurable keyboard shortcuts"
+msgstr "Настраиваемые горячие клавиши"
+
+#: data/kz.anmitali.kiro.appdata.xml:24
+msgid "Multiple cursor shapes and blinking options"
+msgstr "Различные формы курсора и опции мигания"
+
+#: data/kz.anmitali.kiro.appdata.xml:25
+msgid "Scrollback buffer management"
+msgstr "Управление буфером истории"
+
+#: data/kz.anmitali.kiro.appdata.xml:33
+msgid "Main terminal interface"
+msgstr "Основной интерфейс терминала"
+
+#: data/kz.anmitali.kiro.appdata.xml:40
+msgid "AnmiTaliDev"
+msgstr "AnmiTaliDev"
+
+#: data/kz.anmitali.kiro.appdata.xml:46
+msgid "Initial release of Kiro terminal emulator"
+msgstr "Первый выпуск эмулятора терминала Kiro"
+
+#: data/kz.anmitali.kiro.appdata.xml:49
+msgid "Tabbed terminal sessions"
+msgstr "Сеансы терминала с вкладками"
+
+#: data/kz.anmitali.kiro.appdata.xml:50
+msgid "Comprehensive settings and customization"
+msgstr "Комплексные настройки и персонализация"
+
+#: data/kz.anmitali.kiro.appdata.xml:51
+msgid "Full VTE integration"
+msgstr "Полная интеграция с VTE"
+
+#: data/kz.anmitali.kiro.gschema.xml:8
+msgid "Remember window size"
+msgstr "Запоминать размер окна"
+
+#: data/kz.anmitali.kiro.gschema.xml:9
+msgid "Remember the window size when the application is closed"
+msgstr "Запоминать размер окна при закрытии приложения"
+
+#: data/kz.anmitali.kiro.gschema.xml:14
+msgid "Window width"
+msgstr "Ширина окна"
+
+#: data/kz.anmitali.kiro.gschema.xml:15
+msgid "Width of the main window"
+msgstr "Ширина главного окна"
+
+#: data/kz.anmitali.kiro.gschema.xml:20
+msgid "Window height"
+msgstr "Высота окна"
+
+#: data/kz.anmitali.kiro.gschema.xml:21
+msgid "Height of the main window"
+msgstr "Высота главного окна"
+
+#: data/kz.anmitali.kiro.gschema.xml:26
+msgid "Window maximized"
+msgstr "Окно развёрнуто"
+
+#: data/kz.anmitali.kiro.gschema.xml:27
+msgid "Whether the window is maximized"
+msgstr "Развёрнуто ли окно"
+
+#: data/kz.anmitali.kiro.gschema.xml:32
+msgid "Always on top"
+msgstr "Поверх всех окон"
+
+#: data/kz.anmitali.kiro.gschema.xml:33
+msgid "Keep the window always on top"
+msgstr "Держать окно поверх всех окон"
+
+#: data/kz.anmitali.kiro.gschema.xml:39
+msgid "Window transparency"
+msgstr "Прозрачность окна"
+
+#: data/kz.anmitali.kiro.gschema.xml:40
+msgid "Transparency level of the window (0.0 = opaque, 1.0 = transparent)"
+msgstr "Уровень прозрачности окна (0.0 = непрозрачное, 1.0 = прозрачное)"
+
+#: data/kz.anmitali.kiro.gschema.xml:46
+msgid "Terminal font"
+msgstr "Шрифт терминала"
+
+#: data/kz.anmitali.kiro.gschema.xml:47
+msgid "Font used in the terminal"
+msgstr "Шрифт, используемый в терминале"
+
+#: data/kz.anmitali.kiro.gschema.xml:52
+msgid "Allow bold text"
+msgstr "Разрешить жирный текст"
+
+#: data/kz.anmitali.kiro.gschema.xml:53
+msgid "Allow bold text in the terminal"
+msgstr "Разрешить жирный текст в терминале"
+
+#: data/kz.anmitali.kiro.gschema.xml:59
+msgid "Use theme colors"
+msgstr "Использовать цвета темы"
+
+#: data/kz.anmitali.kiro.gschema.xml:60
+msgid "Use system theme colors instead of custom colors"
+msgstr "Использовать цвета системной темы вместо пользовательских цветов"
+
+#: data/kz.anmitali.kiro.gschema.xml:65
+msgid "Foreground color"
+msgstr "Цвет текста"
+
+#: data/kz.anmitali.kiro.gschema.xml:66
+msgid "Default foreground color"
+msgstr "Цвет текста по умолчанию"
+
+#: data/kz.anmitali.kiro.gschema.xml:71
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: data/kz.anmitali.kiro.gschema.xml:72
+msgid "Default background color"
+msgstr "Цвет фона по умолчанию"
+
+#: data/kz.anmitali.kiro.gschema.xml:78
+msgid "Background transparency"
+msgstr "Прозрачность фона"
+
+#: data/kz.anmitali.kiro.gschema.xml:79
+msgid "Transparency level of the background (0.0 = opaque, 1.0 = transparent)"
+msgstr "Уровень прозрачности фона (0.0 = непрозрачный, 1.0 = прозрачный)"
+
+#: data/kz.anmitali.kiro.gschema.xml:84
+msgid "Palette colors"
+msgstr "Цвета палитры"
+
+#: data/kz.anmitali.kiro.gschema.xml:85
+msgid "Color palette used for terminal colors"
+msgstr "Цветовая палитра, используемая для цветов терминала"
+
+#: data/kz.anmitali.kiro.gschema.xml:92
+msgid "Cursor shape"
+msgstr "Форма курсора"
+
+#: data/kz.anmitali.kiro.gschema.xml:93
+msgid "Shape of the cursor (0=Block, 1=I-Beam, 2=Underline)"
+msgstr "Форма курсора (0=Блок, 1=Вертикальная линия, 2=Подчёркивание)"
+
+#: data/kz.anmitali.kiro.gschema.xml:98
+msgid "Cursor blinking"
+msgstr "Мигание курсора"
+
+#: data/kz.anmitali.kiro.gschema.xml:99
+msgid "Whether the cursor should blink"
+msgstr "Должен ли курсор мигать"
+
+#: data/kz.anmitali.kiro.gschema.xml:106
+msgid "Scrollback lines"
+msgstr "Строки истории"
+
+#: data/kz.anmitali.kiro.gschema.xml:107
+msgid "Number of lines to keep in scrollback buffer"
+msgstr "Количество строк для хранения в буфере истории"
+
+#: data/kz.anmitali.kiro.gschema.xml:112
+msgid "Scroll on output"
+msgstr "Прокручивать при выводе"
+
+#: data/kz.anmitali.kiro.gschema.xml:113
+msgid "Scroll to bottom when new output appears"
+msgstr "Прокручивать вниз при появлении нового вывода"
+
+#: data/kz.anmitali.kiro.gschema.xml:118
+msgid "Scroll on keystroke"
+msgstr "Прокручивать при нажатии клавиш"
+
+#: data/kz.anmitali.kiro.gschema.xml:119
+msgid "Scroll to bottom when a key is pressed"
+msgstr "Прокручивать вниз при нажатии клавиши"
+
+#: data/kz.anmitali.kiro.gschema.xml:125
+msgid "Auto-hide mouse"
+msgstr "Автоскрытие мыши"
+
+#: data/kz.anmitali.kiro.gschema.xml:126
+msgid "Hide mouse cursor while typing"
+msgstr "Скрывать курсор мыши при наборе"
+
+#: data/kz.anmitali.kiro.gschema.xml:131
+msgid "Copy on select"
+msgstr "Копировать при выделении"
+
+#: data/kz.anmitali.kiro.gschema.xml:132
+msgid "Automatically copy selected text to clipboard"
+msgstr "Автоматически копировать выделенный текст в буфер обмена"
+
+#: data/kz.anmitali.kiro.gschema.xml:138
+msgid "Word characters"
+msgstr "Символы слова"
+
+#: data/kz.anmitali.kiro.gschema.xml:139
+msgid "Characters considered part of a word for selection"
+msgstr "Символы, считающиеся частью слова при выделении"
+
+#: data/kz.anmitali.kiro.gschema.xml:144
+msgid "Allow hyperlinks"
+msgstr "Разрешить гиперссылки"
+
+#: data/kz.anmitali.kiro.gschema.xml:145
+msgid "Enable hyperlink detection and clicking"
+msgstr "Включить обнаружение гиперссылок и возможность их нажатия"
+
+#: data/kz.anmitali.kiro.gschema.xml:151
+msgid "Audible bell"
+msgstr "Звуковой сигнал"
+
+#: data/kz.anmitali.kiro.gschema.xml:152
+msgid "Play a sound when the terminal bell is rung"
+msgstr "Воспроизводить звук при звонке терминала"
+
+#: data/kz.anmitali.kiro.gschema.xml:157
+msgid "Urgent bell"
+msgstr "Срочный сигнал"
+
+#: data/kz.anmitali.kiro.gschema.xml:158
+msgid "Mark the window as urgent when the terminal bell is rung"
+msgstr "Отмечать окно как срочное при звонке терминала"
+
+#: data/kz.anmitali.kiro.gschema.xml:164
+msgid "Custom shell command"
+msgstr "Пользовательская команда оболочки"
+
+#: data/kz.anmitali.kiro.gschema.xml:165
+msgid "Custom shell to use instead of default shell"
+msgstr ""
+"Пользовательская оболочка для использования вместо оболочки по умолчанию"
+
+#: data/kz.anmitali.kiro.gschema.xml:170
+msgid "Run custom command"
+msgstr "Запускать пользовательскую команду"
+
+#: data/kz.anmitali.kiro.gschema.xml:171
+msgid "Run a custom command instead of shell"
+msgstr "Запускать пользовательскую команду вместо оболочки"
+
+#: data/kz.anmitali.kiro.gschema.xml:176
+msgid "Custom command"
+msgstr "Пользовательская команда"
+
+#: data/kz.anmitali.kiro.gschema.xml:177
+msgid "Custom command to run instead of shell"
+msgstr "Пользовательская команда для запуска вместо оболочки"
+
+#: data/kz.anmitali.kiro.gschema.xml:183
+msgid "Close tab on exit"
+msgstr "Закрывать вкладку при выходе"
+
+#: data/kz.anmitali.kiro.gschema.xml:184
+msgid "Close tab when the shell process exits"
+msgstr "Закрывать вкладку при завершении процесса оболочки"

@@ -1,0 +1,68 @@
+# Build directories
+builddir/
+build/
+_build/
+
+# Compiled binaries
+kiro
+
+# Meson build files
+meson-logs/
+meson-private/
+
+# Object files
+*.o
+*.lo
+*.la
+*.so
+*.so.*
+*.a
+
+# Vala generated C files
+src/*.c
+src/kiro_vala.stamp
+
+# GSettings compiled schemas
+*.gschema.valid
+gschemas.compiled
+
+# Translation files
+*.pot
+*.mo
+po/*.mo
+po/POTFILES.in~
+
+# Desktop and AppData validation
+*.desktop.in~
+*.appdata.xml.in~
+
+# Backup files
+*~
+*.bak
+*.orig
+*.rej
+*.swp
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
+
+# Packaging
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.zip
