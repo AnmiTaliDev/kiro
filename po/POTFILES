@@ -7,6 +7,6 @@ src/engine.vala
 src/ui.vala
 
 # Data files
-data/kz.anmitali.kiro.desktop.in
-data/kz.anmitali.kiro.appdata.xml
-data/kz.anmitali.kiro.gschema.xml
+data/dev.anmitali.kiro.desktop.in
+data/dev.anmitali.kiro.appdata.xml
+data/dev.anmitali.kiro.gschema.xml

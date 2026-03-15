@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>kz.anmitali.kiro</id>
+  <id>dev.anmitali.kiro</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Kiro</name>
@@ -26,7 +26,7 @@
     </ul>
   </description>
   
-  <launchable type="desktop-id">kz.anmitali.kiro.desktop</launchable>
+  <launchable type="desktop-id">dev.anmitali.kiro.desktop</launchable>
   
   <screenshots>
     <screenshot type="default">

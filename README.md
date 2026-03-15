@@ -153,43 +153,27 @@ Open preferences with `Ctrl+,` or through the main menu. Settings are organized 
 ### Via Command Line
 ```bash
 # View current font setting
-gsettings get kz.anmitali.kiro font
+gsettings get dev.anmitali.kiro font
 
 # Set a custom font
-gsettings set kz.anmitali.kiro font 'JetBrains Mono 14'
+gsettings set dev.anmitali.kiro font 'JetBrains Mono 14'
 
 # Enable copy on select
-gsettings set kz.anmitali.kiro copy-on-select true
+gsettings set dev.anmitali.kiro copy-on-select true
 
 # Set custom colors
-gsettings set kz.anmitali.kiro use-theme-colors false
-gsettings set kz.anmitali.kiro foreground-color '#ffffff'
-gsettings set kz.anmitali.kiro background-color '#1e1e1e'
+gsettings set dev.anmitali.kiro use-theme-colors false
+gsettings set dev.anmitali.kiro foreground-color '#ffffff'
+gsettings set dev.anmitali.kiro background-color '#1e1e1e'
 ```
 
 ### Reset Settings
 ```bash
 # Reset all settings to defaults
-gsettings reset-recursively kz.anmitali.kiro
+gsettings reset-recursively dev.anmitali.kiro
 ```
 
 ## Development
-
-### Project Structure
-```
-kiro/
-├── src/           # Vala source files
-│   ├── main.vala     # Application entry point
-│   ├── ui.vala       # UI components and window management
-│   ├── engine.vala   # Terminal engine and VTE integration
-│   └── settings.vala # Settings management
-├── data/          # Application data files
-│   ├── *.desktop.in  # Desktop file template
-│   ├── *.appdata.xml # AppStream metadata
-│   └── *.gschema.xml # GSettings schema
-├── po/            # Translations
-└── meson.build    # Build configuration
-```
 
 ### Building for Development
 ```bash
@@ -263,15 +247,8 @@ G_MESSAGES_DEBUG=all ./builddir/src/kiro
 
 Kiro is licensed under the GNU General Public License v3.0 or later. See [LICENSE](LICENSE) for the full license text.
 
-## Credits
-
-- **Developer:** AnmiTaliDev <anmitali198@gmail.com>
-- **Built with:** GTK4, LibAdwaita, VTE, and Vala
-- **Inspired by:** GNOME Terminal, Tilix, and other modern terminal emulators
-
 ## Links
 
 - **Homepage:** https://github.com/AnmiTaliDev/kiro
 - **Bug Reports:** https://github.com/AnmiTaliDev/kiro/issues
 - **Discussions:** https://github.com/AnmiTaliDev/kiro/discussions
-

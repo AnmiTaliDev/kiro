@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="kiro">
-  <schema id="kz.anmitali.kiro" path="/kz/anmitali/kiro/">
+  <schema id="dev.anmitali.kiro" path="/kz/anmitali/kiro/">
     
     <!-- Window Settings -->
     <key name="remember-window-size" type="b">

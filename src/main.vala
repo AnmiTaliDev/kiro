@@ -3,7 +3,7 @@ using Adw;
 
 namespace Kiro {
     public class Application : Adw.Application {
-        private const string APP_ID = "kz.anmitali.kiro";
+        private const string APP_ID = "dev.anmitali.kiro";
         private const string APP_VERSION = "1.0.0";
         
         private MainWindow? main_window = null;

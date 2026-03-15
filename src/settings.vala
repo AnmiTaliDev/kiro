@@ -155,7 +155,7 @@ namespace Kiro {
         }
         
         public Settings() {
-            gsettings = new GLib.Settings("kz.anmitali.kiro");
+            gsettings = new GLib.Settings("dev.anmitali.kiro");
             gsettings.changed.connect((key) => {
                 changed(key);
             });

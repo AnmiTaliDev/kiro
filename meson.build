@@ -11,7 +11,7 @@ project('kiro', ['vala', 'c'],
 )
 
 # Project information
-app_id = 'kz.anmitali.kiro'
+app_id = 'dev.anmitali.kiro'
 app_name = 'Kiro'
 app_version = meson.project_version()
 

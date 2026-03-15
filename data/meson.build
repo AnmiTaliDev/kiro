@@ -1,12 +1,12 @@
 # GSchema file
-install_data('kz.anmitali.kiro.gschema.xml',
+install_data('dev.anmitali.kiro.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 
 # Desktop file
 desktop_file = i18n.merge_file(
-  input: 'kz.anmitali.kiro.desktop.in',
-  output: 'kz.anmitali.kiro.desktop',
+  input: 'dev.anmitali.kiro.desktop.in',
+  output: 'dev.anmitali.kiro.desktop',
   type: 'desktop',
   po_dir: '../po',
   install: true,
@@ -21,14 +21,14 @@ if desktop_utils.found()
 endif
 
 # AppData file
-install_data('kz.anmitali.kiro.appdata.xml',
+install_data('dev.anmitali.kiro.appdata.xml',
   install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
 
 appstream_util = find_program('appstream-util', required: false)
 if appstream_util.found()
   test('Validate appdata file', appstream_util,
-    args: ['validate', join_paths(meson.current_source_dir(), 'kz.anmitali.kiro.appdata.xml')]
+    args: ['validate', join_paths(meson.current_source_dir(), 'dev.anmitali.kiro.appdata.xml')]
   )
 endif
 

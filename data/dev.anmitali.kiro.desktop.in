@@ -16,12 +16,12 @@ Actions=new-window;new-tab;preferences;
 
 [Desktop Action new-window]
 Name=New Window
-Exec=kz.anmitali.kiro --new-window
+Exec=dev.anmitali.kiro --new-window
 
 [Desktop Action new-tab]
 Name=New Tab
-Exec=kz.anmitali.kiro --new-tab
+Exec=dev.anmitali.kiro --new-tab
 
 [Desktop Action preferences]
 Name=Preferences
-Exec=kz.anmitali.kiro --preferences
+Exec=dev.anmitali.kiro --preferences
