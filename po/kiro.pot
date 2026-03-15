@@ -1,0 +1,591 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the kiro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kiro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-27 19:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.vala:94
+msgid "translator-credits"
+msgstr ""
+
+#: src/engine.vala:386
+msgid "Copy"
+msgstr ""
+
+#. Check if clipboard has text (simplified)
+#: src/engine.vala:391
+msgid "Paste"
+msgstr ""
+
+#: src/engine.vala:392
+msgid "Select All"
+msgstr ""
+
+#: src/ui.vala:47
+msgid "Main Menu"
+msgstr ""
+
+#: src/ui.vala:52 src/ui.vala:67 data/kz.anmitali.kiro.desktop.in:22
+msgid "New Tab"
+msgstr ""
+
+#: src/ui.vala:53 src/ui.vala:367 data/kz.anmitali.kiro.desktop.in:26
+msgid "Preferences"
+msgstr ""
+
+#: src/ui.vala:57
+msgid "About Kiro"
+msgstr ""
+
+#: src/ui.vala:58
+msgid "Quit"
+msgstr ""
+
+#. Connect terminal signals
+#: src/ui.vala:191 src/ui.vala:196
+msgid "Terminal"
+msgstr ""
+
+#. General page
+#: src/ui.vala:379
+msgid "General"
+msgstr ""
+
+#. Appearance page
+#: src/ui.vala:388
+msgid "Appearance"
+msgstr ""
+
+#. Behavior page
+#: src/ui.vala:397
+msgid "Behavior"
+msgstr ""
+
+#. Advanced page
+#: src/ui.vala:406
+msgid "Advanced"
+msgstr ""
+
+#. Shell group
+#: src/ui.vala:417
+msgid "Shell"
+msgstr ""
+
+#: src/ui.vala:421
+msgid "Custom Shell Command"
+msgstr ""
+
+#: src/ui.vala:430
+msgid "Run Custom Command Instead of Shell"
+msgstr ""
+
+#: src/ui.vala:439
+msgid "Custom Command"
+msgstr ""
+
+#. Window group
+#: src/ui.vala:453
+msgid "Window"
+msgstr ""
+
+#: src/ui.vala:457
+msgid "Remember Window Size"
+msgstr ""
+
+#: src/ui.vala:466
+msgid "Always on Top"
+msgstr ""
+
+#: src/ui.vala:475
+msgid "Close Tab When Process Exits"
+msgstr ""
+
+#. Font group
+#: src/ui.vala:489
+msgid "Font"
+msgstr ""
+
+#: src/ui.vala:502
+msgid "Terminal Font"
+msgstr ""
+
+#: src/ui.vala:508
+msgid "Allow Bold Text"
+msgstr ""
+
+#. Colors group
+#: src/ui.vala:520
+msgid "Colors"
+msgstr ""
+
+#: src/ui.vala:524
+msgid "Use System Theme Colors"
+msgstr ""
+
+#: src/ui.vala:541
+msgid "Foreground Color"
+msgstr ""
+
+#: src/ui.vala:557
+msgid "Background Color"
+msgstr ""
+
+#: src/ui.vala:576
+msgid "Background Transparency"
+msgstr ""
+
+#: src/ui.vala:577
+msgid "0.0 = Opaque, 1.0 = Transparent"
+msgstr ""
+
+#. Cursor group
+#: src/ui.vala:586
+msgid "Cursor"
+msgstr ""
+
+#: src/ui.vala:590
+msgid "Cursor Shape"
+msgstr ""
+
+#: src/ui.vala:600
+msgid "Cursor Blinking"
+msgstr ""
+
+#. Scrolling group
+#: src/ui.vala:614
+msgid "Scrolling"
+msgstr ""
+
+#: src/ui.vala:625
+msgid "Scrollback Lines"
+msgstr ""
+
+#: src/ui.vala:631
+msgid "Scroll on Output"
+msgstr ""
+
+#: src/ui.vala:640
+msgid "Scroll on Keystroke"
+msgstr ""
+
+#. Mouse group
+#: src/ui.vala:652
+msgid "Mouse"
+msgstr ""
+
+#: src/ui.vala:656
+msgid "Hide Mouse When Typing"
+msgstr ""
+
+#: src/ui.vala:665
+msgid "Copy on Select"
+msgstr ""
+
+#. Bell group
+#: src/ui.vala:677
+msgid "Bell"
+msgstr ""
+
+#: src/ui.vala:681
+msgid "Audible Bell"
+msgstr ""
+
+#: src/ui.vala:690
+msgid "Urgent Bell (Flash Window)"
+msgstr ""
+
+#. Text group
+#: src/ui.vala:704
+msgid "Text Selection"
+msgstr ""
+
+#: src/ui.vala:708
+msgid "Word Characters"
+msgstr ""
+
+#: src/ui.vala:717
+msgid "Allow Hyperlinks"
+msgstr ""
+
+#. Performance group
+#: src/ui.vala:729
+msgid "Performance"
+msgstr ""
+
+#. Reset button
+#: src/ui.vala:734
+msgid "Reset All Settings"
+msgstr ""
+
+#: src/ui.vala:742
+msgid "Reset Settings"
+msgstr ""
+
+#: src/ui.vala:743
+msgid "Reset all preferences to default values"
+msgstr ""
+
+#: src/ui.vala:753
+msgid "Block"
+msgstr ""
+
+#: src/ui.vala:754
+msgid "I-Beam"
+msgstr ""
+
+#: src/ui.vala:755
+msgid "Underline"
+msgstr ""
+
+#: src/ui.vala:761
+msgid "Reset All Settings?"
+msgstr ""
+
+#: src/ui.vala:762
+msgid ""
+"This will reset all preferences to their default values. This action cannot "
+"be undone."
+msgstr ""
+
+#: src/ui.vala:765
+msgid "Cancel"
+msgstr ""
+
+#: src/ui.vala:766
+msgid "Reset"
+msgstr ""
+
+#: data/kz.anmitali.kiro.desktop.in:3 data/kz.anmitali.kiro.appdata.xml:6
+msgid "Kiro"
+msgstr ""
+
+#: data/kz.anmitali.kiro.desktop.in:4
+msgid "Terminal Emulator"
+msgstr ""
+
+#: data/kz.anmitali.kiro.desktop.in:5 data/kz.anmitali.kiro.appdata.xml:7
+msgid "A modern and elegant terminal emulator"
+msgstr ""
+
+#: data/kz.anmitali.kiro.desktop.in:13
+msgid "terminal;shell;prompt;command;commandline;cmd;"
+msgstr ""
+
+#: data/kz.anmitali.kiro.desktop.in:14
+msgid "shell;prompt;command;commandline;cmd;terminal;console;bash;zsh;fish;"
+msgstr ""
+
+#: data/kz.anmitali.kiro.desktop.in:18
+msgid "New Window"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:10
+msgid ""
+"Kiro is a modern terminal emulator built with GTK4 and LibAdwaita, designed "
+"to integrate seamlessly with the GNOME desktop environment."
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:14
+msgid "Features:"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:16 data/kz.anmitali.kiro.appdata.xml:48
+msgid "Modern GTK4 and LibAdwaita interface"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:17
+msgid "Tabbed interface for multiple terminal sessions"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:18
+msgid "Extensive customization options"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:19
+msgid "Full color support with custom palettes"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:20
+msgid "Transparency and theme integration"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:21
+msgid "Hyperlink detection and opening"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:22
+msgid "Copy on select functionality"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:23
+msgid "Configurable keyboard shortcuts"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:24
+msgid "Multiple cursor shapes and blinking options"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:25
+msgid "Scrollback buffer management"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:33
+msgid "Main terminal interface"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:40
+msgid "AnmiTaliDev"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:46
+msgid "Initial release of Kiro terminal emulator"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:49
+msgid "Tabbed terminal sessions"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:50
+msgid "Comprehensive settings and customization"
+msgstr ""
+
+#: data/kz.anmitali.kiro.appdata.xml:51
+msgid "Full VTE integration"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:8
+msgid "Remember window size"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:9
+msgid "Remember the window size when the application is closed"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:14
+msgid "Window width"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:15
+msgid "Width of the main window"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:20
+msgid "Window height"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:21
+msgid "Height of the main window"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:26
+msgid "Window maximized"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:27
+msgid "Whether the window is maximized"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:32
+msgid "Always on top"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:33
+msgid "Keep the window always on top"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:39
+msgid "Window transparency"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:40
+msgid "Transparency level of the window (0.0 = opaque, 1.0 = transparent)"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:46
+msgid "Terminal font"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:47
+msgid "Font used in the terminal"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:52
+msgid "Allow bold text"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:53
+msgid "Allow bold text in the terminal"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:59
+msgid "Use theme colors"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:60
+msgid "Use system theme colors instead of custom colors"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:65
+msgid "Foreground color"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:66
+msgid "Default foreground color"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:71
+msgid "Background color"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:72
+msgid "Default background color"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:78
+msgid "Background transparency"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:79
+msgid "Transparency level of the background (0.0 = opaque, 1.0 = transparent)"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:84
+msgid "Palette colors"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:85
+msgid "Color palette used for terminal colors"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:92
+msgid "Cursor shape"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:93
+msgid "Shape of the cursor (0=Block, 1=I-Beam, 2=Underline)"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:98
+msgid "Cursor blinking"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:99
+msgid "Whether the cursor should blink"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:106
+msgid "Scrollback lines"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:107
+msgid "Number of lines to keep in scrollback buffer"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:112
+msgid "Scroll on output"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:113
+msgid "Scroll to bottom when new output appears"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:118
+msgid "Scroll on keystroke"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:119
+msgid "Scroll to bottom when a key is pressed"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:125
+msgid "Auto-hide mouse"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:126
+msgid "Hide mouse cursor while typing"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:131
+msgid "Copy on select"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:132
+msgid "Automatically copy selected text to clipboard"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:138
+msgid "Word characters"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:139
+msgid "Characters considered part of a word for selection"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:144
+msgid "Allow hyperlinks"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:145
+msgid "Enable hyperlink detection and clicking"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:151
+msgid "Audible bell"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:152
+msgid "Play a sound when the terminal bell is rung"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:157
+msgid "Urgent bell"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:158
+msgid "Mark the window as urgent when the terminal bell is rung"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:164
+msgid "Custom shell command"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:165
+msgid "Custom shell to use instead of default shell"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:170
+msgid "Run custom command"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:171
+msgid "Run a custom command instead of shell"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:176
+msgid "Custom command"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:177
+msgid "Custom command to run instead of shell"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:183
+msgid "Close tab on exit"
+msgstr ""
+
+#: data/kz.anmitali.kiro.gschema.xml:184
+msgid "Close tab when the shell process exits"
+msgstr ""

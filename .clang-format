@@ -1,0 +1,25 @@
+# clang-format config for Vala-generated C files
+# Used when manually editing generated or helper C code
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+
+# Brace style matching GLib/GTK conventions
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# Pointer alignment: int *x not int* x
+PointerAlignment: Right
+
+# Spaces
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+
+# Include sorting
+SortIncludes: CaseSensitive
+IncludeBlocks: Regroup

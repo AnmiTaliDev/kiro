@@ -1,0 +1,41 @@
+app-id: dev.anmitali.kiro
+runtime: org.gnome.Platform
+runtime-version: '47'
+sdk: org.gnome.Sdk
+command: kiro
+
+finish-args:
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  # Terminal needs access to host filesystem
+  - --filesystem=home
+  - --filesystem=host:ro
+  # D-Bus for opening URLs and files
+  - --talk-name=org.freedesktop.portal.Desktop
+  - --talk-name=org.freedesktop.portal.FileChooser
+
+build-options:
+  build-args:
+    - --share=network
+
+modules:
+  - name: vte
+    buildsystem: meson
+    config-opts:
+      - -Ddocs=false
+      - -Dvapi=true
+      - -D_systemd=false
+    sources:
+      - type: git
+        url: https://gitlab.gnome.org/GNOME/vte.git
+        tag: 0.78.0
+
+  - name: kiro
+    buildsystem: meson
+    config-opts:
+      - -Dprofile=default
+    sources:
+      - type: dir
+        path: ..

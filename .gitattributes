@@ -1,0 +1,44 @@
+# Normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Vala source files
+*.vala text diff=vala
+
+# C source/header files
+*.c text diff=c
+*.h text diff=c
+
+# Meson build files
+meson.build text
+meson.options text
+
+# XML data files
+*.xml text diff=xml
+*.gschema.xml text diff=xml
+*.appdata.xml text diff=xml
+*.desktop.in text
+
+# Translation files
+*.po text diff=po
+*.pot text diff=po
+LINGUAS text
+POTFILES text
+
+# Markdown documentation
+*.md text diff=markdown
+
+# Shell scripts
+*.sh text eol=lf
+
+# Binary assets — no diffs, no EOL conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.svg binary
+
+# Archives — treat as binary
+*.gz binary
+*.tar binary
+*.zip binary
+*.xz binary

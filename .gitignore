@@ -27,7 +27,6 @@ src/kiro_vala.stamp
 gschemas.compiled
 
 # Translation files
-*.pot
 *.mo
 po/*.mo
 po/POTFILES.in~

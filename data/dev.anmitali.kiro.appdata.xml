@@ -5,10 +5,10 @@
   <project_license>GPL-3.0+</project_license>
   <name>Kiro</name>
   <summary>A modern and elegant terminal emulator</summary>
-  
+
   <description>
     <p>
-      Kiro is a modern terminal emulator built with GTK4 and LibAdwaita, 
+      Kiro is a modern terminal emulator built with GTK4 and LibAdwaita,
       designed to integrate seamlessly with the GNOME desktop environment.
     </p>
     <p>Features:</p>
@@ -25,21 +25,21 @@
       <li>Scrollback buffer management</li>
     </ul>
   </description>
-  
+
   <launchable type="desktop-id">dev.anmitali.kiro.desktop</launchable>
-  
+
   <screenshots>
     <screenshot type="default">
       <caption>Main terminal interface</caption>
     </screenshot>
   </screenshots>
-  
+
   <url type="homepage">https://github.com/AnmiTaliDev/kiro</url>
   <url type="bugtracker">https://github.com/AnmiTaliDev/kiro/issues</url>
-  
+
   <developer_name>AnmiTaliDev</developer_name>
-  <update_contact>anmitali198@gmail.com</update_contact>
-  
+  <update_contact>anmitalidev@nuros.org</update_contact>
+
   <releases>
     <release version="1.0.0" date="2024-01-01">
       <description>
@@ -53,23 +53,23 @@
       </description>
     </release>
   </releases>
-  
+
   <content_rating type="oars-1.1" />
-  
+
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
-  
+
   <recommends>
     <control>keyboard</control>
     <control>pointing</control>
   </recommends>
-  
+
   <categories>
     <category>System</category>
     <category>TerminalEmulator</category>
   </categories>
-  
+
   <kudos>
     <kudo>ModernToolkit</kudo>
     <kudo>HiDpiIcon</kudo>
